@@ -1,0 +1,48 @@
+html {
+	background-color: #0b0c10;
+	font-family: 'SFProDisplay-Regular', sans-serif;
+}
+
+h1,
+h2,
+p,
+li {
+	color: #deeeee;
+	margin-left: 30%;
+}
+
+a {
+	color: #5d91a6;
+}
+
+.coding_gif_image {
+	width: 550px;
+	height: 350px;
+	margin-left: 30%;
+}
+
+.image_hello {
+	width: 50px;
+	height: 50px;
+	margin-left: 30%;
+}
+
+img {
+	width: 30px;
+}
+
+@font-face {
+	font-family: 'SFProDisplay-Regular';
+	src: url('../fonts/sfprodisplay-regular.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/sfprodisplay-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/sfprodisplay-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/sfprodisplay-regular.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/sfprodisplay-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/sfprodisplay-regular.svg#sfprodisplay-regular') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
