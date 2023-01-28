@@ -1,9 +1,20 @@
-p, li {
+h1 {
 color: red;
 }
+h2 {
+color: yellow;
+}
+a {
+color: green;
+}
 html{
-font-family: 'Roboto', sans-serif;
-background-color: #FFEFD5;
+background-color: #88ceeb;
+}
+.bit_text {
+font-size: 22px;
+}
+li {
+font-size: 18px;
 }
 @font-face {
 	font-family: 'Teddy Bear';
@@ -16,4 +27,20 @@ background-color: #FFEFD5;
 }
 p{
 font-family: 'Teddy Bear', sans-serif;
+}
+ul{
+list-style-type: square;
+}
+img{
+margin-left: 30%
+}
+.img_1 {
+width: 300;
+border: 5px solid green;
+}
+a:hover{
+color: red
+}
+hr{
+border-width: 10px
 }
