@@ -4,8 +4,7 @@ CREATE TABLE groupmates (
   studId INTEGER PRIMARY KEY AUTO_INCREMENT,
   name TEXT NOT NULL,
   age INTEGER NOT NULL,
-  address TEXT NOT NULL,
-  CHECK (age>=18 AND age<=100)
+  address TEXT NOT NULL
 );
 
 -- insert
@@ -19,4 +18,4 @@ INSERT INTO groupmates (name, age, address) VALUES ('Maxim', 34, "Leningradsky A
 INSERT INTO groupmates (name, age, address) VALUES ('Petr', 18, "Leningradsky Ave, 39, строение 80, Moscow, 125167");
 
 -- fetch
-SELECT * FROM groupmates WHERE address REGEXP 'Moscow' AND age BETWEEN 18 AND 29;
+SELECT name FROM groupmates WHERE address REGEXP 'Moscow' AND age BETWEEN 18 AND 29;
